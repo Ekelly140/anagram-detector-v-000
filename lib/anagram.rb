@@ -9,7 +9,6 @@ class Anagram
   letters =  @word.split("").collect {|letter| letter}
     strings.select do |word|
       word.split("").sort == letters.sort
- 
     end 
   end
 end 
